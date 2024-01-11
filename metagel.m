@@ -35,7 +35,7 @@ while (interval*(aa-1)+window*(aa+1))<num_rec
     clear recup
 
 
- %% FFT--------回波参数设定--------
+ %% FFT--------configuration--------
     Xrec=fft(sigrec,N2);
     ampl2=abs(Xrec);
     frec=f2;
@@ -44,7 +44,7 @@ while (interval*(aa-1)+window*(aa+1))<num_rec
     recup=ecoup;
     clear ecoup
     
-%% 找频谱峰位置
+%% Find the position of peak frequency
     [m,l]=max(recup(freqstart1:freqstop1));
    dia_u1(aa,:)=l+freqstart1+freqstart;  
     freqstop1=freqstart1+l+400;%
