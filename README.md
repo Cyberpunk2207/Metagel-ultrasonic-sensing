@@ -1,6 +1,6 @@
 # Metagel-ultrasonic-sensing
 This repository contains a segment of ultrasonic RF data (metagel.mat) collected by ultrasound probe in monitor pH changes, and a Matlab script (metagel.m) for extracting metagel frequency shifts.
-Copyright 2023 Hanchuan Tang, All rights reserved.
+Copyright 2024 Hanchuan Tang.
 
 # 1. System requirements
 This script was tested and run on the Windows 10 system in MATLAB 2022b. All systems that can install MATLAB software (versions after 2019) are expected to run. No non-standard hardware is required to run this script.
