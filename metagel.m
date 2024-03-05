@@ -29,7 +29,7 @@ while (interval*(aa-1)+window*(aa+1))<num_rec
 
      sigm=[sigm;ya];    %Zero padding
      siga=[siga;sigm];  %Signal superposition
-     end
+end
     sigrec=siga';
     clear siga
     clear recup
