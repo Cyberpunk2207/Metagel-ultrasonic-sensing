@@ -9,9 +9,9 @@ This script was tested and run on the Windows 10 system in MATLAB 2022b. All sys
 No installation process is needed if MATLAB software is ready.
 
 # 3. Demo
-Instructions to run on data: run the script and follow the annotation and description
-Expected output: Plots of the frequency shits
-Expected run time for demo on a "normal" desktop computer: usually 5 minutes
+Instructions to run on data: run the script and follow the annotation and description.
+Expected output: Plots of the frequency shits.
+Expected run time for demo on a "normal" desktop computer: usually 5 minutes.
 
 # 4. Instructions for use
 Put the data and script code in the same folder, and then run the script file.
